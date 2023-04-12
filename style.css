@@ -117,3 +117,35 @@ button {
     padding-left: 100px;
     padding-right: 100px;
 }
+
+div.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+}
+
+p.quote {
+    font-size: 32px;
+    font-style: oblique;
+    font-weight: light;
+    color: black;
+    color: #1f2937;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+p.author {
+    color: black;
+    font-weight: bolder;
+    text-align: right;
+    margin-top: 0px;
+}
+
+div.outer {
+    background-color: white;
+}
