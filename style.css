@@ -79,6 +79,11 @@ button {
     border-radius: 6px;
 }
 
+button:hover {
+    background-color: #1f2937;
+    transition: 0.5s;
+}
+
 .info {
     display: flex;
     flex: 1;
@@ -148,4 +153,27 @@ p.author {
 
 div.outer {
     background-color: white;
+}
+
+div.adbox {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    margin: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    border-radius: 6px;
+}
+div.left {
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+div.footer {
+    background-color: #1f2937;
+    text-align: center;
+    color: white;
+    padding: 50px;
 }
