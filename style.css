@@ -5,6 +5,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 100px;
     margin-right: 100px;
+    min-width: 900px
 }
 
 div.header {
@@ -14,9 +15,8 @@ div.header {
     align-items: center;
     background-color: rgb(152, 251, 152, 0.3);
     color: white;
-    padding-left: 100px;
-    padding-right: 100px;
     white-space: nowrap;
+    padding: 20px;
 }
 
  /*elements on the navbar*/
@@ -44,9 +44,14 @@ div.main {
     justify-content: space-between;
     color: white;
     background-color: rgb(152, 251, 152, 0.3);
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 100px;
+}
+
+.content {
+    margin: 20px;
+}
+
+.jump {
+    padding: 20px;
 }
 
 div.heading {
@@ -78,7 +83,7 @@ button:hover {
 /*dog images*/
 
 div.dog {
-    display: inline-flex;
+    display: flex;
     flex: 1;
     justify-content: space-evenly;
     background-color: rgb(255, 255, 255, 0.3);
@@ -90,6 +95,8 @@ img.mainimg {
     border-style: solid;
     border-color: rgba(134, 88, 26, 0.555);
     border-radius: 6px;
+    margin: 0;
+    min-width: none;
 }
 
 .caption {
@@ -97,14 +104,13 @@ img.mainimg {
     justify-content: space-evenly;
     text-align: center;
     align-items: center;
-    margin-left: 80px;
-    margin-right: 80px;
     padding-bottom: 50px;
 }
 
 .item-box {
     display: flex;
     justify-content: space-around;
+    min-width: none;
 }
 /*end*/
 
